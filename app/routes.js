@@ -88,7 +88,7 @@ app.post('/qpPost', upload.single('file-to-upload'), (req, res, next) => {
 app.delete('/delete', (req, res) => {
   let dId = ObjectId(req.session.passport.user)
   //deletemethod:Deletes a single document based on the filter and sort criteria, returning the deleted document https://docs.mongodb.com/manual/reference/method/db.collection.findOneAndDelete/
-  db.collection('posts').findOneAndDelete({imgPath: req.body.imgPath}, (err, result) => {//looks at messages collection,s finds and deletes.
+  db.collection('posts').findOneAndDelete({imgPath: req.body.imgPath, caption: req.body.caption, likes: req.body.imgPath }, (err, result) => {//looks at messages collection,s finds and deletes.
     if (err) return res.send(500, err)//if error, send error
     res.send('Message deleted!')
   })
