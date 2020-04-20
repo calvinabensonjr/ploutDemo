@@ -3,6 +3,13 @@ body{
   background-size: cover;
 }
 
+.signup{
+  background-image: url(https://bestanimations.com/Nature/Water/ocean-water-animated-gif-3.gif);
+}
+.login{
+  background-image: url(https://bestanimations.com/Nature/Water/ocean-water-animated-gif-3.gif);
+}
+
 a{
   color: gold;
 }
