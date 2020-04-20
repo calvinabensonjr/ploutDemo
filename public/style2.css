@@ -1,0 +1,15 @@
+body{
+  background-image: url(https://i.pinimg.com/originals/bf/58/88/bf5888c666e2ba3614f9ddd5a63f7739.jpg);
+  background-size: cover;
+}
+
+a{
+  color: gold;
+}
+
+#log{
+  color:maroon;
+}
+li{
+  list-style: none;
+}
