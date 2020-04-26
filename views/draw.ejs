@@ -1,0 +1,25 @@
+<h1>hi</h1>
+<button id="saveDraw">Save</button>
+<img id="capture" src="" alt="">
+<!-- 1st step -->
+<script src="https://www.webrtc-experiment.com/Canvas-Designer/canvas-designer-widget.js"></script>
+
+<!-- 2nd step -->
+<script>
+var designer = new CanvasDesigner();
+
+// both links are mandatory
+// widget.html will internally use widget.js
+designer.widgetHtmlURL = 'https://www.webrtc-experiment.com/Canvas-Designer/widget.html'; // you can place this file anywhere
+designer.widgetJsURL = 'https://www.webrtc-experiment.com/Canvas-Designer/widget.js';     // you can place this file anywhere
+</script>
+
+<!-- 3rd i.e. last step -->
+<script>
+// <iframe> will be appended to "document.body"
+designer.appendTo(document.body || document.documentElement);
+</script>
+
+<script></script>
+
+<script src="canvas.js"></script>
