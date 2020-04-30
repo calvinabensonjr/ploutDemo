@@ -1,6 +1,6 @@
-# demoProject
+# Plout
 
-## This an application called 'Plout.'
+## This a web application called 'Plout.' A platform for creatives of all arts.
 
 ![Plout Photo](public/img/demoPlout.png)
 
