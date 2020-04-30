@@ -9,6 +9,7 @@
 - Javascript
 - CSS
 - Node.js
+- MongoDB
 
 ## Directions to run the server
 - 1. Open Terminal
